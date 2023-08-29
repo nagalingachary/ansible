@@ -1,0 +1,16 @@
+- name: testing variable precedence
+  hosts: mongodb
+  vars:
+   NAME: naga-play
+  vars_files:
+  - vriables.yaml
+  vars_promt:
+  - name: NAME
+    prompt: Please enter Trainee Name
+    private: false
+  tasks:
+  - name: variable at task level
+   vars:
+    NAME: naga-task
+    ansible.builtin.debug:
+     msg: "Trainer Name is : {{NAME}}"
