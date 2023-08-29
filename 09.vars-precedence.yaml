@@ -3,7 +3,7 @@
   vars:
    NAME: naga-play
   vars_files:
-  - vriables.yaml
+  - variables.yaml
   vars_prompt:
   - name: NAME
     prompt: Please enter Trainee Name
