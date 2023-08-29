@@ -9,3 +9,7 @@
   - name: print the command output
     ansible.builtin.debug:
      msg: "output is : {{output}}"
+
+  - name: print the exit status
+    ansible.builtin.debug:
+     msg: "output is : {{output.rc}}"
