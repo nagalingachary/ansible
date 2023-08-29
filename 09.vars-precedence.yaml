@@ -4,10 +4,10 @@
    NAME: naga-play
   #vars_files:
   #- variables.yaml
-  vars_prompt:
-  - name: NAME
-    prompt: Please enter Trainee Name
-    private: false
+  #vars_prompt:
+  #- name: NAME
+  # prompt: Please enter Trainee Name
+  # private: false
   tasks:
   - name: variable at task level
    # vars:
