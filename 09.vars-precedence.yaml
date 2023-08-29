@@ -10,7 +10,7 @@
     private: false
   tasks:
   - name: variable at task level
-   vars:
+    vars:
     NAME: naga-task
     ansible.builtin.debug:
      msg: "Trainer Name is : {{NAME}}"
