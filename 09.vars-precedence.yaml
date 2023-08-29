@@ -4,7 +4,7 @@
    NAME: naga-play
   vars_files:
   - vriables.yaml
-  vars_promt:
+  vars_prompt:
   - name: NAME
     prompt: Please enter Trainee Name
     private: false
