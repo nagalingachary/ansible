@@ -13,4 +13,4 @@
     vars:
       NAME: naga-task
     ansible.builtin.debug:
-      msg: "Trainer Name is : {{NAME}}"
+      msg: "Trainer Name is : {{NAME}}" 
