@@ -1,10 +1,2 @@
 [mongodb]
 roboshop-us-dev-db-mongodb-01.devopscollab.tech
-
-
-
-
-[mongodb:vars]
-NAME=naga-inventory
-MONGO_USERNAME=mongodbadmin
-MONGO_DB=categories
